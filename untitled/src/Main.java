@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
-        String txt = "C:\\Users\\Vlad\\OneDrive\\Desktop\\test.txt";
+        String txt = "test.txt";
 
         WriteToFile wrt = new WriteToFile();
 
