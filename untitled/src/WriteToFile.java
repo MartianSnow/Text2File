@@ -12,7 +12,7 @@ class WriteToFile {
         Date date = new Date();
         try{
             BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
-            writer.write("\n" + formatter.format(date) + ": " + text + " !");
+            writer.write("\n" + formatter.format(date) + ": " + text);
             writer.close();
         }
         catch(IOException e){
